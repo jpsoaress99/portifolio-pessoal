@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
 
+    <meta
+        name="description"
+        content="Portfólio pessoal de João Pedro, desenvolvedor Front-end. Conheça meus projetos, habilidades e formas de contato."
+    >
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>João Pedro | Portfólio</title>
+
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,28 +20,27 @@
 
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"
+    >
 
-    <title>João Pedro | Portfólio</title>
-
-    <meta
-        name="description"
-        content="Portfólio pessoal de João Pedro, desenvolvedor Front-end. Conheça meus projetos, habilidades e formas de contato.">
-
-    <!-- Aula 1 -->
+    <!-- JavaScript -->
     <script src="script.js" defer></script>
 </head>
 
 <body>
 
-    <!-- Cabeçalho -->
+    <!-- ================================
+         CABEÇALHO
+    ================================= -->
+
     <header>
 
         <h1>João Pedro</h1>
 
-        <p class="cargo">Desenvolvedor Front-end</p>
+        <p class="cargo">
+            Desenvolvedor Front-end
+        </p>
 
-        <!-- Menu -->
         <nav>
             <a href="#hero">Início</a>
             <a href="#sobre">Sobre</a>
@@ -43,17 +51,25 @@
 
     </header>
 
-    <!-- Conteúdo principal -->
+
+    <!-- ================================
+         CONTEÚDO PRINCIPAL
+    ================================= -->
+
     <main>
 
-        <!-- Hero -->
+        <!-- HERO -->
+
         <section id="hero">
 
-            <h2>Olá, eu sou João!</h2>
+            <h2>
+                Olá, eu sou João!
+            </h2>
 
             <img
                 src="./perfil.jpg"
-                alt="Foto de João Pedro">
+                alt="Foto de João Pedro"
+            >
 
             <p>
                 Sou estudante de desenvolvimento web e estou construindo
@@ -62,100 +78,169 @@
 
         </section>
 
-        <!-- Sobre -->
+
+        <!-- SOBRE -->
+
         <section id="sobre">
 
-            <h2>Sobre Mim</h2>
+            <h2>
+                Sobre Mim
+            </h2>
 
             <p>
                 Tenho interesse em desenvolvimento web e estou aprendendo
                 HTML, CSS e outras tecnologias para criar sites modernos.
             </p>
 
-            <!-- Botão para ir até Contato -->
-            <a href="#contato" class="botao-contato">
+            <button id="botao-contato" type="button">
                 Entre em contato comigo
-            </a>
+            </button>
 
         </section>
 
-        <!-- Habilidades -->
+
+        <!-- HABILIDADES -->
+
         <section id="habilidades">
 
-            <h2>Habilidades</h2>
+            <h2>
+                Habilidades
+            </h2>
 
             <ul>
+
                 <li>HTML</li>
+
                 <li>CSS</li>
+
                 <li>Git e GitHub</li>
+
             </ul>
 
         </section>
 
-        <!-- Projetos -->
+
+        <!-- PROJETOS -->
+
         <section id="projetos">
 
-            <h2>Projetos</h2>
+            <h2>
+                Projetos
+            </h2>
 
             <div class="projetos-grid">
 
                 <article>
-                    <h3>Landing Page</h3>
-                    <p>Página criada utilizando HTML.</p>
+
+                    <h3>
+                        Landing Page
+                    </h3>
+
+                    <p>
+                        Página criada utilizando HTML.
+                    </p>
+
                 </article>
 
-                <article>
-                    <h3>Currículo Online</h3>
-                    <p>Primeira versão do meu portfólio.</p>
-                </article>
 
                 <article>
-                    <h3>Site Responsivo</h3>
-                    <p>Projeto desenvolvido para praticar CSS.</p>
+
+                    <h3>
+                        Currículo Online
+                    </h3>
+
+                    <p>
+                        Primeira versão do meu portfólio.
+                    </p>
+
+                </article>
+
+
+                <article>
+
+                    <h3>
+                        Site Responsivo
+                    </h3>
+
+                    <p>
+                        Projeto desenvolvido para praticar CSS.
+                    </p>
+
                 </article>
 
             </div>
 
         </section>
 
-        <!-- Contato -->
+
+        <!-- CONTATO -->
+
         <section id="contato">
 
-            <h2>Entre em Contato</h2>
+            <h2>
+                Entre em Contato
+            </h2>
 
             <form action="#" method="post">
 
                 <p>
-                    <label for="nome">Nome</label><br>
+
+                    <label for="nome">
+                        Nome
+                    </label>
+
+                    <br>
 
                     <input
                         type="text"
                         id="nome"
-                        name="nome">
+                        name="nome"
+                    >
+
                 </p>
 
+
                 <p>
-                    <label for="email">E-mail</label><br>
+
+                    <label for="email">
+                        E-mail
+                    </label>
+
+                    <br>
 
                     <input
                         type="email"
                         id="email"
-                        name="email">
+                        name="email"
+                    >
+
                 </p>
 
+
                 <p>
-                    <label for="senha">Senha</label><br>
+
+                    <label for="senha">
+                        Senha
+                    </label>
+
+                    <br>
 
                     <input
                         type="password"
                         id="senha"
-                        name="senha">
+                        name="senha"
+                    >
+
                 </p>
 
+
                 <p>
+
                     <input
                         type="submit"
-                        value="Enviar">
+                        value="Enviar"
+                    >
+
                 </p>
 
             </form>
@@ -164,25 +249,43 @@
 
     </main>
 
-    <!-- Rodapé -->
+
+    <!-- ================================
+         RODAPÉ
+    ================================= -->
+
     <footer>
 
-        <p>&copy; 2026 João Pedro</p>
-
-        <p>E-mail: joaopedro@email.com</p>
+        <p>
+            &copy; 2026 João Pedro
+        </p>
 
         <p>
+            E-mail: joaopedro@email.com
+        </p>
+
+        <p>
+
             <a
                 class="link-social"
-                href="https://github.com/jpsoaress99">
+                href="https://github.com/jpsoaress99"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 GitHub
             </a>
+
             |
+
             <a
                 class="link-social"
-                href="https://www.linkedin.com/in/jpsoaress99">
+                href="https://www.linkedin.com/in/jpsoaress99"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 LinkedIn
             </a>
+
         </p>
 
     </footer>
