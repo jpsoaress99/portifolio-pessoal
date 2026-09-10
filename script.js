@@ -1,7 +1,7 @@
 
-const botaoSobre = document.getElementById("botao-sobre");
+const botaoContato = document.getElementById("botao-contato");
 
-const sobre = document.getElementById("sobre");
+const contato = document.getElementById("contato");
 
 botaoSobre.addEventListener("click", function () {
     sobre.scrollIntoView();
